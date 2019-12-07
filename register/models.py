@@ -4,7 +4,7 @@ from django.db import models
 
 class employer(models.Model):
     name = models.CharField(max_length=200)
-    opening = models.DateField();
+    opening = models.IntegerField();
     pswd = models.CharField(max_length=40)
     addr = models.CharField(max_length=2000)
     phone = models.CharField(max_length=20)

@@ -8,7 +8,7 @@ from .models import employer
 def register_an_employer(request):
     emp_data = request.POST
 
-    if employer.objects.filter(name=emp_data['name']).exist():
+    if employer.objects.filter(name=emp_data['name']).exists():
         return JsonResponse({'result':'employer already exists'},status=208)
 
     employer_instance = employer.objects.create(name=emp_data['name']\
@@ -22,7 +22,7 @@ def register_an_employer(request):
 def register_an_employee(request):
     emp_data = request.POST
 
-    if employee.objects.filter(username=emp_data['username']):
+    if employee.objects.filter(username=emp_data['username']).exists():
         return JsonResponse({'result':'user already exists'}, status=208)
 
     employee_instance = employee.objects.create(first_name=emp_data['firstname']\
