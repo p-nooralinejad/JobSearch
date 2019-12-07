@@ -26,5 +26,5 @@ class advertise(models.Model):
 class application(models.Model):
     app_id = models.AutoField(primary_key=True)
     adv_id = models.ForeignKey(advertise, on_delete=models.CASCADE)
-    applicant = models.ForeignKey(employee)
+    applicant = models.ForeignKey(employee, on_delete=models.DO_NOTHING)
 

@@ -20,3 +20,18 @@ class EmployerRegistrationTest(TestCase):
                           {'name': 'Yektanet', 'opening': 1400, 'pswd': '4321', 'addr': 'shomal', 'phone': '98765432'})
 
         self.assertEqual(response.status_code, 208)
+
+    def test_employee_registration(self):
+        c = Client()
+        response = c.post('/register/employee', \
+                    {'firstname':'Parsa', 'surname':'Nooralinejad', 'username':'ParsaN', 'pswd' : '1234', 'gender':'M', 'age': 23})
+
+        self.assertEqual(response.status_code, 200)
+
+    def test_employee_multi_registration(self):
+        c = Client()
+        response = c.post('/register/employee', \
+                          {'firstname': 'Parsa', 'surname': 'Nooralinejad', 'username': 'ParsaN', 'pswd': '1234', 'gender': 'M', 'age': 23})
+        response = c.post('/register/employee', \
+                          {'firstname': 'Parsa', 'surname': 'Nooralinejad', 'username': 'ParsaN', 'pswd': '1234','gender': 'M', 'age': 23})
+        self.assertEqual(response.status_code, 208)

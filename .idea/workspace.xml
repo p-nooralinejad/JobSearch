@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="078c5403-8dc6-4d0d-9a11-d42c17e99af6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/action/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/action/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/action/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advertise/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertise/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_finder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_finder/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/job_finder/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_finder/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,107 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: register.tests.EmployerRegistrationTest">
+  <component name="RunManager" selected="Django tests.Test: action.tests.ActionTest.test_edit_profile_employer">
+    <configuration name="Test: action.tests.ActionTest.test_apply_for_not_existing_ad" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="job_finder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="action.tests.ActionTest.test_apply_for_not_existing_ad" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: action.tests.ActionTest.test_edit_profile_employer" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="job_finder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="action.tests.ActionTest.test_edit_profile_employer" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: action.tests.ActionTest.test_get_all_ads" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="job_finder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="action.tests.ActionTest.test_get_all_ads" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: action.tests.ActionTest.test_get_all_applicant_for_ad" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="job_finder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="action.tests.ActionTest.test_get_all_applicant_for_ad" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: action.tests.ActionTest.test_get_all_applicant_for_ad_unauthorized" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="job_finder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="action.tests.ActionTest.test_get_all_applicant_for_ad_unauthorized" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test: register.tests.EmployerRegistrationTest" type="DjangoTestsConfigurationType">
       <module name="job_finder" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,26 +158,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="TARGET" value="register.tests.EmployerRegistrationTest" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test: register.tests.EmployerRegistrationTest.test_employer_multi_registration" type="DjangoTestsConfigurationType" temporary="true">
-      <module name="job_finder" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="register.tests.EmployerRegistrationTest.test_employer_multi_registration" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -110,7 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Django tests.Test: register.tests.EmployerRegistrationTest.test_employer_multi_registration" />
+        <item itemvalue="Django tests.Test: action.tests.ActionTest.test_edit_profile_employer" />
+        <item itemvalue="Django tests.Test: action.tests.ActionTest.test_get_all_applicant_for_ad_unauthorized" />
+        <item itemvalue="Django tests.Test: action.tests.ActionTest.test_get_all_applicant_for_ad" />
+        <item itemvalue="Django tests.Test: action.tests.ActionTest.test_get_all_ads" />
+        <item itemvalue="Django tests.Test: action.tests.ActionTest.test_apply_for_not_existing_ad" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575718491110</updated>
-      <workItem from="1575718496858" duration="11446000" />
+      <workItem from="1575718496858" duration="17772000" />
     </task>
     <servers />
   </component>
@@ -147,6 +231,17 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/job_finder$Test__register_tests_EmployerRegistrationTest_test_employer_multi_registration.coverage" NAME="Test: register.tests.EmployerRegistrationTest.test_employer_multi_registration Coverage Results" MODIFIED="1575725232238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__register_tests_EmployerRegistrationTest_test_employee_registration.coverage" NAME="Test: register.tests.EmployerRegistrationTest.test_employee_registration Coverage Results" MODIFIED="1575734707718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__action_tests_ActionTest_test_post_ad.coverage" NAME="Test: action.tests.ActionTest.test_post_ad Coverage Results" MODIFIED="1575733921310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__action_tests_ActionTest_test_apply_for_not_existing_ad.coverage" NAME="Test: action.tests.ActionTest.test_apply_for_not_existing_ad Coverage Results" MODIFIED="1575735368789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__action_tests_ActionTest_test_apply_with_not_existing_user.coverage" NAME="Test: action.tests.ActionTest.test_apply_with_not_existing_user Coverage Results" MODIFIED="1575735362183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__action_tests_ActionTest_test_post_ad_with_not_existing_employer.coverage" NAME="Test: action.tests.ActionTest.test_post_ad_with_not_existing_employer Coverage Results" MODIFIED="1575734005828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__action_tests_ActionTest_test_get_all_applicant_for_ad.coverage" NAME="Test: action.tests.ActionTest.test_get_all_applicant_for_ad Coverage Results" MODIFIED="1575737849880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__action_tests_ActionTest_test_apply_for_ad.coverage" NAME="Test: action.tests.ActionTest.test_apply_for_ad Coverage Results" MODIFIED="1575735200937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__action_tests_ActionTest_test_get_all_ads.coverage" NAME="Test: action.tests.ActionTest.test_get_all_ads Coverage Results" MODIFIED="1575737336279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__action_tests_ActionTest_test_get_all_applicant_for_ad_unauthorized.coverage" NAME="Test: action.tests.ActionTest.test_get_all_applicant_for_ad_unauthorized Coverage Results" MODIFIED="1575737935566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/job_finder$Test__register_tests_EmployerRegistrationTest.coverage" NAME="Test: register.tests.EmployerRegistrationTest Coverage Results" MODIFIED="1575725325947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__register_tests_EmployerRegistrationTest_test_employee_multi_registration.coverage" NAME="Test: register.tests.EmployerRegistrationTest.test_employee_multi_registration Coverage Results" MODIFIED="1575734759595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/job_finder$Test__action_tests_ActionTest_test_edit_profile_employer.coverage" NAME="Test: action.tests.ActionTest.test_edit_profile_employer Coverage Results" MODIFIED="1575739535006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
