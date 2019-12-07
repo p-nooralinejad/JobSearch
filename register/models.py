@@ -8,6 +8,7 @@ class employer(models.Model):
     pswd = models.CharField(max_length=40)
     addr = models.CharField(max_length=2000)
     phone = models.CharField(max_length=20)
+    field = models.CharField(max_length=200)
 
 class employee(models.Model):
     first_name = models.CharField(max_length=50)
@@ -16,5 +17,5 @@ class employee(models.Model):
     pswd = models.CharField(max_length=50)
     gender = models.CharField(max_length=1) #'F' or 'M'
     age = models.IntegerField()
-
+    field = models.CharField(max_length=200)
 
