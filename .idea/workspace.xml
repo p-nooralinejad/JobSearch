@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="078c5403-8dc6-4d0d-9a11-d42c17e99af6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/advertise/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/action/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertise/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertise/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_finder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_finder/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_finder/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_finder/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575718491110</updated>
-      <workItem from="1575718496858" duration="6988000" />
+      <workItem from="1575718496858" duration="11446000" />
     </task>
     <servers />
   </component>
